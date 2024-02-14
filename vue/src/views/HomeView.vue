@@ -4,6 +4,7 @@
       v-for="destination in destinations"
       :key="destination.name"
       :Destination="destination"
+      @click = "addToCart(destination)"
     />
   </div>
 </template>
@@ -53,5 +54,9 @@ const destinations = [
 <style scoped>
 h1 {
   color: red;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
 </style>
