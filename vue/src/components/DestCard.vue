@@ -1,9 +1,8 @@
 <template>
-    <div>
+    <div id="container">
       <h1>{{ Destination.name }}</h1>
       <img :src="Destination.img" alt="" />
-      <h2>{{ clicked }}</h2>
-      <button @click="increment">Click ME</button>
+      <h2>{{ Destination.price }}</h2>
     </div>
   </template>
   

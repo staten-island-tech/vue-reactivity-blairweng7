@@ -13,40 +13,49 @@
 import DestCard from "@/components/DestCard.vue";
 const destinations = [
   {
-    name: "Venetian Renaissance",
-    International: true,
-    price: 1300,
-    img: "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80&quot;",
+    name: "SNOW LODGE GREATER YELLOWSTONE SWEATSHIRT",
+    price: "$38",
+    img: "https://us.brandymelville.com/cdn/shop/files/MJB033-8007S071V83700_04_750x.jpg?v=1707494677",
   },
   {
-    name: "Swiss Mountain Getaway",
-    International: true,
-    price: 800,
-    img: "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1476&q=80&quot;",
+    name: "SKYLAR HEART EYELET TANK",
+    price: "$18",
+    img: "https://us.brandymelville.com/cdn/shop/files/MW922L-1405SI7200QRF_03_750x.jpg?v=1707076991",
+  },
+ {
+    name: "ROSA TIE SWEATPANTS",
+    price: "$32",
+    img: "https://us.brandymelville.com/cdn/shop/files/MCH002-Z094SC0500L-01_750x.jpg?v=1706292312",
   },
   {
-    name: "Ibizan Coastal Vacation",
-    International: true,
-    price: 1200,
-    img: "https://images.unsplash.com/photo-1547138494-97041dec734b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80&quot;",
+    name: "KIERA TEDDY BEAR PANTS",
+    price: "$38",
+    img: "https://us.brandymelville.com/cdn/shop/files/MC002LP-1429S07100VT24_02_750x.jpg?v=1706054838",
   },
   {
-    name: "Hawaiian Vacation",
-    International: false,
-    price: 900,
-    img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1173&q=80&quot;",
+    name: "STRIPED SOCKS",
+    price: "$6",
+    img: "https://us.brandymelville.com/cdn/shop/files/MU936BB08SP888_00_750x.jpg?v=1694026314",
   },
   {
-    name: "Cascade Mountains",
-    International: false,
-    price: 400,
-    img: "https://images.unsplash.com/photo-1511497584788-876760111969?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1332&q=80&quot;",
+    name: "ROBYN RADIO SILENCE LONDON TOP",
+    price: "$23",
+    img: "https://us.brandymelville.com/cdn/shop/files/MLA002C-8005S015T165TV_0_750x.jpg?v=1703915540",
   },
   {
-    name: "Egyptian Exploration",
-    International: true,
-    price: 800,
-    img: "https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80&quot;",
+    name: "SKYLAR HEART EYELET TANK",
+    price: "$18",
+    img: "https://us.brandymelville.com/cdn/shop/files/MW922L-1405SI7200QRF_03_750x.jpg?v=1707076991",
+  },
+  {
+    name: "ALEAH COTTON STRIPE SWEATER",
+    price: "$38",
+    img: "https://us.brandymelville.com/cdn/shop/products/MH473-Z037S65600RC_0_750x.jpg?v=1671848121",
+  },
+  {
+    name: "VIVIAN DRESS",
+    price: "$42",
+    img: "https://us.brandymelville.com/cdn/shop/files/mh546v-z129s1620000_1_1_750x.jpg?v=1707347231",
   },
 ];
 </script>
@@ -57,6 +66,11 @@ h1 {
   margin: 0;
   padding: 0;
   font-size: 62.5%;
-  box-sizing: border-box;
 }
+container{
+box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  aligh-items: center
+  };
 </style>
