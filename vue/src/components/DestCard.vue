@@ -1,5 +1,5 @@
 <template>
-    <div id="container">
+    <div class="container">
       <h1>{{ Destination.name }}</h1>
       <img :src="Destination.img" alt="" />
       <h2>{{ Destination.price }}</h2>
@@ -20,8 +20,15 @@
   
   <style scoped>
   img {
-    width: 250px;
-    height: 300px;
+    width: 50px;
+    height: 60px;
     object-fit: cover;
   }
+  div {
+    box-sizing: border-box;
+   display: flex;
+    flex-wrap: wrap;
+  align-items: center
+
+}
   </style>

@@ -66,11 +66,5 @@ h1 {
   margin: 0;
   padding: 0;
   font-size: 62.5%;
-}
-container{
-box-sizing: border-box;
-  display: flex;
-  flex-wrap: wrap;
-  aligh-items: center
-  };
+};
 </style>
