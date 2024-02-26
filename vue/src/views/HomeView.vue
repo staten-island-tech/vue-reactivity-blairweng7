@@ -61,10 +61,14 @@ const destinations = [
 </script>
 
 <style scoped>
-h1 {
+.name {
   color: red;
-  margin: 0;
-  padding: 0;
+  margin: 15px;
+  padding: 15px;
   font-size: 62.5%;
 };
+.price{
+font-size: 30px;
+  
+}
 </style>
