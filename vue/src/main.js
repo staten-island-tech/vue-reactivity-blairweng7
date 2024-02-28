@@ -12,3 +12,9 @@ app.use(createPinia())
 app.use(router)
 
 app.mount('#app')
+
+function pushCard(){
+    destination.push(...cart)
+}
+
+pushCard

@@ -62,11 +62,12 @@ const destinations = [
 
 <style scoped>
 
-.container{
+.container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
   padding: 15px;
+  background-color: rgb(255, 239, 216);
 }
 </style>
