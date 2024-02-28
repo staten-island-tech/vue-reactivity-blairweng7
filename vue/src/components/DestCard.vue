@@ -24,13 +24,18 @@ img {
   height: 120px;
   object-fit: cover;
 }
+h1 {
+font-size: 20px;
+}
+h2 {
+  font-size: 15px;
+}
 div {
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-}
-.price {
-font-size: 50px;
+  flex-direction: column;
 }
 </style>
+

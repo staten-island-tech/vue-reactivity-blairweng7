@@ -1,15 +1,15 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="cart">
+    <h1>Shopping Cart</h1>
   </div>
 </template>
 
 <style>
 @media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
+  .cart {
     display: flex;
     align-items: center;
+    font-size: 100px;
   }
 }
 </style>

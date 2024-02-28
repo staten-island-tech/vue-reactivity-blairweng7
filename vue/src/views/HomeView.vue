@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <DestCard
       v-for="destination in destinations"
       :key="destination.name"
@@ -61,14 +61,12 @@ const destinations = [
 </script>
 
 <style scoped>
-.name {
-  color: red;
-  margin: 15px;
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 15px;
-  font-size: 62.5%;
-};
-.price{
-font-size: 30px;
-  
 }
 </style>
