@@ -13,10 +13,3 @@ app.use(router)
 
 app.mount('#app')
 
-data() {
-    return {
-      products: [],
-      cart: null,
-    }
-  }
-  

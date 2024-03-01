@@ -3,7 +3,8 @@
     <h1>{{ Destination.name }}</h1>
     <img :src="Destination.img" alt="" />
     <h2>{{ Destination.price }}</h2>
-  </div>
+    <button @click="$emit('addToCart')">Add to Cart</button>
+    </div>
 </template>
 
 <script setup>
