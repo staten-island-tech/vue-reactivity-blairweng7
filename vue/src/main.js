@@ -18,5 +18,5 @@ data() {
       products: [],
       cart: null,
     }
-  },
+  }
   
