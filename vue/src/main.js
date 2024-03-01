@@ -13,8 +13,10 @@ app.use(router)
 
 app.mount('#app')
 
-function pushCard(){
-    destination.push(...cart)
-}
-
-pushCard
+data() {
+    return {
+      products: [],
+      cart: null,
+    }
+  },
+  

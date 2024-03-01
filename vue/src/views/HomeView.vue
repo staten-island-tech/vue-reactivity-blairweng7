@@ -57,6 +57,11 @@ const destinations = [
     price: "$42",
     img: "https://us.brandymelville.com/cdn/shop/files/mh546v-z129s1620000_1_1_750x.jpg?v=1707347231",
   },
+  {
+    name: "THE ROSE",
+    price: "$1000",
+    img: "https://thelovestore.com/cdn/shop/products/0001_DSC_3871.jpg?v=1635344770"
+  }
 ];
 </script>
 
