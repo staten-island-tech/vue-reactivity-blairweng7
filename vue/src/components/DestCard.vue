@@ -9,7 +9,7 @@
 
 <script setup>
 import { ref } from "vue";
-import { store } from '../stores.store.js'
+
 
 const props = defineProps({
   Destination: Object,

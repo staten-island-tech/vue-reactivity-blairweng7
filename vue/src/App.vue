@@ -4,7 +4,8 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <header>
-    <h1>Brandy Melzville</h1>
+    <h1>brandy melville
+    </h1>
    
   </header>
 
@@ -12,9 +13,11 @@ import { RouterLink, RouterView } from "vue-router";
 </template>
 
 <style scoped>
-header{font-size: 80px;
+header{
+  font-size: 7rem;
   text-align: center;
   text-transform: uppercase;
+  padding: 2rem;
 }
 
 </style>
