@@ -72,10 +72,10 @@ const destinations = [
         img: "https://us.brandymelville.com/cdn/shop/products/MH473-Z037S65600RC_0_750x.jpg?v=1671848121",
       },
       {
-        name: "THE ROSE",
-        price: "$1000",
-        img: "https://thelovestore.com/cdn/shop/products/0001_DSC_3871.jpg?v=1635344770"
-      }
+        name: "NICO AMERICAN FLAG SWEATER",
+        price: "$38",
+        img: "https://us.brandymelville.com/cdn/shop/files/MNJ225-F03XS00500USA_03_360x.jpg?v=1708700957",
+      },
 ]
 
 
