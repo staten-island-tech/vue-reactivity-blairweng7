@@ -1,19 +1,40 @@
 <template>
-  <div class="container">
-    <DestCard
-      v-for="destination in destinations"
-      :key="destination.name"
-      :Destination="destination"
-      @click = "addToCart(destination)"
-    />
+
+  <div> 
+  <MyCart
+  :cart="cart"
+  :total="total"
+  />
   </div>
-</template>
+  
+    <div class="items">
+  <DestCard 
+  v-for="destination in destinations" 
+  :key="destination.name"
+  :Destination = "destination"
+  @add="addToCart(destination)"
+  />
+    </div>
+  
+  </template>
+  
+  <script setup>
+  import DestCard from "@/components/DestCard.vue";
+  import MyCart from "@/components/MyCart.vue";
+  import {ref} from "vue";
+  
+  const cart = 
 
-
-<script setup>
-
-import DestCard from "@/components/DestCard.vue";
-
+  ref([])
+  
+  const total= 
+  ref(0)
+  
+  function addToCart(destination) {
+  total.value+= destination.price
+  cart.value.push(destination)
+  }
+  
 const destinations = [
     {
         name: "SNOW LODGE GREATER YELLOWSTONE SWEATSHIRT",
@@ -29,11 +50,6 @@ const destinations = [
         name: "ROSA TIE SWEATPANTS",
         price: "$32",
         img: "https://us.brandymelville.com/cdn/shop/files/MCH002-Z094SC0500L-01_750x.jpg?v=1706292312",
-      },
-      {
-        name: "KIERA TEDDY BEAR PANTS",
-        price: "$38",
-        img: "https://us.brandymelville.com/cdn/shop/files/MC002LP-1429S07100VT24_02_750x.jpg?v=1706054838",
       },
       {
         name: "STRIPED SOCKS",
@@ -56,11 +72,6 @@ const destinations = [
         img: "https://us.brandymelville.com/cdn/shop/products/MH473-Z037S65600RC_0_750x.jpg?v=1671848121",
       },
       {
-        name: "VIVIAN DRESS",
-        price: "$42",
-        img: "https://us.brandymelville.com/cdn/shop/files/mh546v-z129s1620000_1_1_750x.jpg?v=1707347231",
-      },
-      {
         name: "THE ROSE",
         price: "$1000",
         img: "https://thelovestore.com/cdn/shop/products/0001_DSC_3871.jpg?v=1635344770"
@@ -71,12 +82,16 @@ const destinations = [
 </script>
 
 <style scoped>
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 15px;
+.container{
+  height: 50vh;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 3rem 3rem;
 }
+
+
+
 </style>

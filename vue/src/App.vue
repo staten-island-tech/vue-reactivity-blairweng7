@@ -1,23 +1,22 @@
 <script setup>
-import { RouterLink, RouterView } from "vue-router";
+import { RouterView } from 'vue-router'
+
 </script>
 
 <template>
   <header>
-    <h1>brandy melville
-    </h1>
-   
+    <h1>Brandy Melville</h1>
   </header>
-
   <RouterView />
 </template>
 
 <style scoped>
+
 header{
-  font-size: 7rem;
+  font-size: 5rem;
   text-align: center;
   text-transform: uppercase;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 </style>
