@@ -9,21 +9,34 @@
 
 <script setup>
 import { ref } from "vue";
+import { store } from '../stores.store.js'
+
 const props = defineProps({
   Destination: Object,
 });
 //clicker logic
 const clicked = ref(0);
-function increment() {
+function addToCart() {
+  store.addToCart(item);
   clicked.value++;
 }
 </script>
 
 <style scoped>
 img {
-  width: 100px;
-  height: 120px;
+  width: 215.25px;
+  height: 322.88px;
   object-fit: cover;
+}
+.container{
+    width: 318px;
+    height:476px;
+    margin:.5rem;
+    padding-top: 1rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius:3%;
 }
 h1 {
 font-size: 20px;
