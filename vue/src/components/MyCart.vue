@@ -4,7 +4,7 @@
       <div v-if="cart.length === 0">
         <p>Cart is empty</p>
       </div>
-      <div v-else>
+      <div v-else class="item">
         <div v-for="(items, index) in cart" :key="index">
           <p>{{ items.name }} - ${{ items.price }}</p>
           <button @click="removeItem(index)">Remove</button>
@@ -14,22 +14,31 @@
     </div>
   </template>
   
-  <script>
-  export default {
-    data() {
-      return {
-        cart: [
-        ]
-      };
-    },
-    methods: {
-      removeItem(index) {
-        this.cart.splice(index, 1);
-      },
-      calculateTotal() {
-        return this.cart.reduce((total, item) => total + item.price, 0);
+  <script setup>
+    const props = defineProps([
+      'cart'
+    ])
+      function removeItem(index) {
+        props.cart.splice(index, 1);
       }
-    }
-  };
+      function calculateTotal() {
+        let total = 0
+        props.cart.forEach((item)=>total+=item.price)
+        return total
+      }
   </script>
   
+  <style>
+  h1 {
+    font-size: 2rem;
+  }
+  p, button {
+    font-size: 1rem;
+  }
+  .item {
+    margin: 5px;
+  }
+  button {
+    margin-bottom: 15px;
+  }
+</style>

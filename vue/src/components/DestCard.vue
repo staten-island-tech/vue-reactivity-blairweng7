@@ -2,7 +2,7 @@
   <div class="cards">
       <h2>{{ Destination.name}}</h2>
       <img :src="Destination.img" alt="">
-       <h3>Price: {{ Destination.price }}</h3>
+       <h3>Price: ${{ Destination.price }}.00</h3>
        <button id="btn" @click="addToCart()">Add To Cart</button>
   </div>
 </template>
@@ -19,17 +19,13 @@ const emit = defineEmits([
 function addToCart() {
     emit("add")
 }
-// const clicked = ref(0);
-
-// function addCart(item){
-//   store.addCart(item);
-//   clicked.value++;
-//   }
-
-// </script>
+</script>
 
 
 <style scoped>
+h2, h3, button {
+  font-size: 1rem;
+}
 img {
   width: 215.25px;
   height: 322.88px;

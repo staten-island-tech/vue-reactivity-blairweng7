@@ -12,10 +12,9 @@ import { RouterView } from 'vue-router'
 
 <style scoped>
 
-header{
+h1 {
   font-size: 5rem;
   text-align: center;
-  text-transform: uppercase;
   padding: 3rem;
 }
 
