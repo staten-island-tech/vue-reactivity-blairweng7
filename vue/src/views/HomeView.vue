@@ -28,9 +28,9 @@ function addToCart(destination) {
 
 const destinations = [
   {
-    name: "SNOW LODGE GREATER YELLOWSTONE SWEATSHIRT",
-    price: 38,
-    img: "https://us.brandymelville.com/cdn/shop/files/MJB033-8007S071V83700_04_750x.jpg?v=1707494677",
+    name: "HAYLEY OVERALLS",
+    price: 55,
+    img: "https://us.brandymelville.com/cdn/shop/files/MRR085-YR17S0050000_02_750x.jpg?v=1704448717",
   },
   {
     name: "SKYLAR HEART EYELET TANK",
@@ -53,9 +53,9 @@ const destinations = [
     img: "https://us.brandymelville.com/cdn/shop/files/MLA002C-8005S015T165TV_0_750x.jpg?v=1703915540",
   },
   {
-    name: "SKYLAR HEART EYELET TANK",
-    price: 18,
-    img: "https://us.brandymelville.com/cdn/shop/files/MW922L-1405SI7200QRF_03_750x.jpg?v=1707076991",
+    name: "MARTHA COTTON THIN STRIPE SWEATER",
+    price: 38,
+    img: "https://us.brandymelville.com/cdn/shop/files/MNJ247G-Z037SV6300RC-05_750x.jpg?v=1709568922",
   },
   {
     name: "ALEAH COTTON STRIPE SWEATER",
@@ -66,6 +66,26 @@ const destinations = [
     name: "NICO AMERICAN FLAG SWEATER",
     price: 38,
     img: "https://us.brandymelville.com/cdn/shop/files/MNJ225-F03XS00500USA_03_360x.jpg?v=1708700957",
+  },
+  {
+    name: "ARCHIE FLORAL TANK",
+    price: 20,
+    img: "https://us.brandymelville.com/cdn/shop/files/MW006R-58S07100V277C_01_750x.jpg?v=1707984706",
+  },
+  {
+    name: "COLETTE STRIPED SWEATER",
+    price: 35,
+    img: "https://us.brandymelville.com/cdn/shop/files/MNJ263-Q27S3090000_02_750x.jpg?v=1707395728",
+  },
+  {
+    name: "SKYLAR STRAWBERRY TANK",
+    price: 18,
+    img: "https://us.brandymelville.com/cdn/shop/files/MW922L-1101S07100VP06_0_750x.jpg?v=1703915581",
+  },
+  {
+    name: "KEIRA PANTS",
+    price: 38,
+    img: "https://us.brandymelville.com/cdn/shop/files/MC002LP-1429S07100VP08-01_750x.jpg?v=1709904059",
   },
 ];
 </script>
